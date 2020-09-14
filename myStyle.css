@@ -1,0 +1,140 @@
+/* myStyle.css */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+}
+.preview {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    right: 400px;
+    top: 150px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.content {
+    margin: 0px 11.5em;
+    position: relative;
+    display: inline-block;
+    width: 800px;
+}
+.search_result{
+    position:relative;
+    display: inline-block;
+    width: 600px;
+}
+.nav_wrapper{
+    position:relative;
+    top: 25px;
+    left: 150px;
+    width: 700px;
+}
+.nav_wrapper li a {
+    padding: 10px 10px;
+    position: relative;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h4 {
+    font-size:.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-size:.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(95, 95, 95);
+    margin-top: 8px;
+}
+
+.search_result a {
+    position: relative;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.nav_search{
+    position:relative;
+}
+header {
+    position: relative;
+    top: 0px;
+    padding: 20px 20px 100px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    vertical-align: baseline;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+li {
+    float:left;
+}
+#google_image{
+    height: 30px;
+    padding-top: 10px;
+}
+
+.pfp {
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display:inline-block;
+}
+
+.search_wrapper {
+    position: relative;
+    display: flex;
+    width: 700px;
+    margin: auto;
+    margin-left: 40px;
+}
+
+#search {
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    height: 45px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 45px;
+    font-size: 1em;
+}
+
+.search-icon{
+    position: absolute;
+    height: 20px;
+    width: auto;
+    top: 12px;
+    left: 12px;
+}
+
+#squares {
+    height:auto;
+    padding: 0px 10px;
+}
